@@ -27,7 +27,7 @@ class MainActivity : FragmentActivity() {
         adapter.addFragment(bikeFragment, "Bike")
 
         viewPager.adapter = adapter
-        viewPager.currentItem = 1
+        viewPager.currentItem = 0
         viewPager.offscreenPageLimit = 2
 
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
